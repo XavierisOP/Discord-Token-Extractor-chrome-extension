@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Discord Token Extractor</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 10px;
+      background-color: #36383e;
+      color: #ffffff;
+      height: calc(40vw - 20px);
+    }
+
+    .container-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+
+    .container {
+      width: 200px;
+      background-color: #36383e;
+      padding: 10px;
+      border: 2px solid #596bec;
+      border-radius: 10px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    h1 {
+      font-size: 16px;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 5px 5px;
+      font-size: 14px;
+      background-color: #596bec;
+      color: #ffffff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3f51b5;
+    }
+  </style>
+  <script src="popup.js"></script>
+</head>
+<body>
+  <div class="container-wrapper">
+    <div class="container">
+      <h1>Discord Token Extractor</h1>
+      <button id="extractButton">Extract Token</button>
+    </div>
+  </div>
+</body>
+</html>

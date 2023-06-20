@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Discord Token Extractor by XAVIER",
+  "version": "1.5",
+  "description": "Extracts the user token from Discord.",
+  "permissions": ["activeTab", "clipboardWrite", "scripting"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "unlocked.png",
+    "icons": {
+      "16": "unlocked.png",
+      "48": "unlocked.png",
+      "128": "unlocked.png"
+    }
+  }
+}
