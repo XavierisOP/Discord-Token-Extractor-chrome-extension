@@ -1,6 +1,6 @@
 # Discord Token Extractor
 
-Extracts the user token from Discord.
+Extracts the user token from Discord (Discord Account Logged in Browser).
 
 ## Description
 The Discord Token Extractor is a Chrome extension that allows users to extract their user token from Discord for reference. The extracted token can be copied to the clipboard for further use.
